@@ -10,22 +10,11 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-
     <>
-    <div id="wrapper"> 
-      <Sidebar />
-      <div id="content-wrapper" className="d-flex flex-column">
-        <div id="content">
-            <TopBar />
-       {   <div className="container-fluid">
-             <HomeReact />
-             <SeeProduct/>     
-            </div>}
-        </div>
-        <Footer />
-      </div>
+    <div id="wrapper">    
+      <Sidebar />       
     </div>
-    
+    <Footer />
   </>
 );
 }
